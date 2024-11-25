@@ -7,9 +7,9 @@ export const Navbar=() =>{
       <h4>Pizzería Mamma Mía!</h4>
       <Link to="/"><button>🍕Home</button></Link>
       <button>🔓Profile</button>
-      <button>🔐Login</button>
+      <Link to="/src/components/Login.jsx"><button>🔐Login</button></Link>
       <button>🔒Logout</button>
-      <button>🔐Register</button>
+      <Link to="/src/components/Register.jsx"><button>🔐Register</button></Link>
       <div className="totalCompra">
       <button>🛒Total: $</button>
     </div>
