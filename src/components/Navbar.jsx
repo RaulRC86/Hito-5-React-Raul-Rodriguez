@@ -11,7 +11,7 @@ const Navbar=() =>{
       <button>🔒Logout</button>
       <Link to="/Register"><button>🔐Register</button></Link>
       <div className="totalCompra">
-      <button>🛒Total: $</button>
+      <Link to="/Cart"><button>🛒Total: $</button></Link>
     </div>
     </nav>
         </>
