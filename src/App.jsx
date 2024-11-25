@@ -1,12 +1,14 @@
+
+
 import "./index.css"
-import { Header } from "./components/Header.jsx";
-import {Navbar} from "./components/Navbar"; 
-//import Home from "./components/Home.jsx";
-import {Footer} from "./components/Footer.jsx";
-//import Cart from "./components/Cart/Cart.jsx";
-import Pizza from "./components/Pizza.jsx";
-//import Register from "./components/Register.jsx";
-//import Login from "./components/Login.jsx";
+import  Header from "./components/Header";
+import Navbar from "./components/Navbar"; 
+import Home from "./pages/Home";
+import Footer from "./components/Footer";
+import Cart from "./pages/Cart/Cart";
+import Pizza from "./pages/Pizza";
+import Register from "./pages/Register";
+import Login from "./pages/Login";
 
 function App() {
   
@@ -15,10 +17,10 @@ function App() {
     <>
       <Header/>
       <Navbar/>
-      {/* <Register/> */}
-      {/* <Login/> */}
-      {/* <Home/> */}
-      {/* <Cart/> */}
+      <Register/>
+      <Login/>
+      <Home/>
+      <Cart/>
       <Pizza/>
       <Footer/>
     </>
