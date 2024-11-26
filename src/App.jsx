@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-
+import { BrowserRouter } from "react-router-dom";
 import "./index.css"
 import  Header from "./components/Header";
 import Navbar from "./components/Navbar"; 
@@ -14,13 +14,15 @@ function App() {
   return (
     <>
       <Header/>
+      <BrowserRouter>
       <Navbar/>
       <Routes>
-        <Route path='/' element={Home}/>
-        <Route path='/Login' element={Login}/>
-        <Route path='/Register' element={Register}/>
-        <Route path='/Cart' element={Cart}/>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/Login' element={<Login/>}/>
+        <Route path='/Register' element={<Register/>}/>
+        <Route path='/Cart' element={<Cart/>}/>
       </Routes>
+      </BrowserRouter>
       {/* <Pizza/> */}
       <Footer/>
     </>
