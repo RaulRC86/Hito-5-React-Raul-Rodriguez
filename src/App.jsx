@@ -9,6 +9,7 @@ import Cart from "./pages/Cart/Cart";
 // import Pizza from "./pages/Pizza";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
+import Pizza  from "./pages/Pizza"
 
 function App() {
   return (
@@ -18,12 +19,13 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/Login' element={<Login/>}/>
-        <Route path='/Register' element={<Register/>}/>
-        <Route path='/Cart' element={<Cart/>}/>
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/register' element={<Register/>}/>
+        <Route path='/cart' element={<Cart/>}/>
+        <Route path='/pizza/p001' element={<Pizza/>}/>
+        <Route path='*' element={<h1>Página no encontrada</h1>}/>
       </Routes>
       </BrowserRouter>
-      {/* <Pizza/> */}
       <Footer/>
     </>
   )
