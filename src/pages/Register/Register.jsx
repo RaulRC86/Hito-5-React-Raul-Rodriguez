@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 
 const Register = () => {
@@ -34,7 +35,7 @@ const Register = () => {
 
   return (
     <>
-    <div className="formulario">
+    <div className="formularioC">
       <form className="formulario" onSubmit={validarDatos}>
         <div className="formGroup">
           <label>Email</label>

@@ -1,1 +1,8 @@
-.formulario {display: flex; justify-content: center; align-items: center; padding: 20px; margin: 20px;}
+.formularioC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+}

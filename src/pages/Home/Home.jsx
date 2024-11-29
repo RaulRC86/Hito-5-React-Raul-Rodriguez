@@ -1,5 +1,6 @@
+import './Home.css'
 import { useState,useEffect } from "react";
-import CardPizza from "../components/CardPizza";
+import CardPizza from "../../components/CardPizza";
 
 
 const Home = () => {

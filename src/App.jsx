@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
 import "./index.css";
-import Header from "./components/Header";
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import Footer from "./components/Footer";
+import Header from "./components/Header/Header";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./pages/Home/Home";
+import Footer from "./components/Footer/Footer";
 import Cart from "./pages/Cart/Cart";
 import Profile from "./pages/Profile/Profile";
 import Register from "./pages/Register/Register";
