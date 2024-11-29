@@ -6,7 +6,7 @@ const Navbar=() =>{
     <nav>
       <h4>Pizzería Mamma Mía!</h4>
       <Link to="/"><button>🍕Home</button></Link>
-      <button>🔓Profile</button>
+      <Link to="/profile"><button>🔓Profile</button></Link>
       <Link to="/Login"><button>🔐Login</button></Link>
       <button>🔒Logout</button>
       <Link to="/Register"><button>🔐Register</button></Link>

@@ -1,1 +1,2 @@
 .usuario{width: 200px; height: auto; border-radius: 100%;}
+.perfil{display: flex; flex-direction: column;}
