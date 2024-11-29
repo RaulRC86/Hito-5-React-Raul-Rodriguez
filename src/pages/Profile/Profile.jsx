@@ -4,10 +4,9 @@ const Profile = () => {
   return (
     <>
     <div className="perfil">
-    <img src="../../assets/img/usuario.jpg" alt="foto de usuario" className="usuario" />
-    <h1>Raúl Rodríguez Clavero</h1>
+    <p>Raúl Rodríguez Clavero</p>
     <p>correo: raulrodriguez@gmail.com</p>
-    <Link to="/" className="btn btn-light">🔒Logout</Link>
+    <Link to="/" className="btn btn-light"><span className="botonP">🔒Logout</span></Link>
     </div>
     </>
   )
