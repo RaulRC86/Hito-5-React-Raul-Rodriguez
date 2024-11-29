@@ -1,7 +1,7 @@
 const NotFound = () => {
   return (
     <div className="NotFound">
-        <img src="/src/pages/NotFound/error404.png" alt="" />
+        <img src="/public/404.png" alt="" />
     </div>
   )
 }
