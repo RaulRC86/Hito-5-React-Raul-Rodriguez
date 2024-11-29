@@ -7,8 +7,8 @@ import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import Cart from "./pages/Cart/Cart";
 import Profile from "./pages/Profile/Profile";
-import Register from "./pages/Formularios/Register";
-import Login from "./pages/Formularios/Login";
+import Register from "./pages/Register/Register";
+import Login from "./pages/Login/Login";
 import Pizza from "./pages/Pizza";
 import NotFound from "./pages/NotFound/NotFound";
 
