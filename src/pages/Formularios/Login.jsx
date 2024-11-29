@@ -22,6 +22,7 @@ const Login = () => {
   };
   return (
     <>
+    <div className="formulario">
       <form onSubmit={handleSubmit}>
         <div>
           <label>Email</label>
@@ -49,6 +50,7 @@ const Login = () => {
         {/* Mostrar mensaje de éxito si corresponde */}
         {exito && <p className="exito">{exito}</p>}
       </form>
+      </div>
     </>
   );
 };

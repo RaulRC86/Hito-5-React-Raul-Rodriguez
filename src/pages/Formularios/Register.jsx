@@ -34,6 +34,7 @@ const Register = () => {
 
   return (
     <>
+    <div className="formulario">
       <form className="formulario" onSubmit={validarDatos}>
         <div className="formGroup">
           <label>Email</label>
@@ -68,6 +69,7 @@ const Register = () => {
 
         <button type="submit">Enviar</button>
       </form>
+      </div>
     </>
   );
 };
